@@ -1,4 +1,4 @@
-/* Consultant sur Mesure - v3 Premium Clinical Luxury */
+/* KORE GLOBAL ADVISORY - v3 Premium Clinical Luxury */
 
 :root {
     /* v3 Premium Palette: Obsidian, Deep Teal & Pearl */
@@ -39,6 +39,7 @@
 
 /* PREMIUM HERO GLOW ANIMATION */
 @keyframes heroAurora {
+
     0% {
         background-position: 0% 50%;
         opacity: 0.5;
@@ -3946,4 +3947,45 @@ body::before {
     .legal-container {
         margin-top: 80px;
     }
+}
+
+/* France Travail Partner Section */
+
+/* PREMIUM PARTNER SECTION */
+
+.partners {
+    padding: 120px 20px;
+    text-align: center;
+    background: white;
+}
+
+.partner-title {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.partner-description {
+    max-width: 720px;
+    margin: 0 auto 60px auto;
+    font-size: 18px;
+    color: #555;
+}
+
+.partner-card {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 60px;
+    border-radius: 14px;
+    background: white;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.partner-card img {
+    max-width: 220px;
+}
+
+.partner-card:hover {
+    transform: translateY(-5px);
 }

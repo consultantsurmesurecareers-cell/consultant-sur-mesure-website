@@ -1,5 +1,5 @@
 /**
- * Consultant sur Mesure - Dynamic Job Board
+ * KORE GLOBAL ADVISORY - Dynamic Job Board
  * Fetches job postings from a public Google Sheet using JSONP.
  */
 
